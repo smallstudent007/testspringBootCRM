@@ -19,6 +19,7 @@ public class UserQuery extends BaseQuery<User> {
 private String sex;
 private String number;
 private Long age;
+private String email;
 
 
     public String getUsername() {
