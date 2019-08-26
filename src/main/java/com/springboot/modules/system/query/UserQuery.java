@@ -18,6 +18,8 @@ public class UserQuery extends BaseQuery<User> {
     private Boolean locked;
 private String sex;
 private String number;
+private Long age;
+
 
     public String getUsername() {
         return username;
